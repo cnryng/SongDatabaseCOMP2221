@@ -1,0 +1,211 @@
+INSERT INTO Studio VALUES ('808 Appleton loop',1,'Beats');
+INSERT INTO Studio VALUES ('123 Park Hampton',2,'MadCatz');
+INSERT INTO Studio VALUES ('778 Laurane Ave',3,'JaegerPrem');
+INSERT INTO Studio VALUES ('5 Loompa Street',4,'SoundKilla');
+INSERT INTO Studio VALUES ('1 Charlie Ave',5,'LowDudes');
+INSERT INTO Studio VALUES ('4 Tragfalgar Street',6,'Bennys');
+INSERT INTO Studio VALUES ('21 4st Street',7,'4th Street Records');
+
+						 
+INSERT INTO Employs VALUES (11,1,'1990-01-11');
+INSERT INTO Employs VALUES (12,2,'1992-02-02');
+INSERT INTO Employs VALUES (13,3,'1992-04-03');
+INSERT INTO Employs VALUES (14,4,'1994-06-08');
+INSERT INTO Employs VALUES (15,5,'1995-09-07');
+INSERT INTO Employs VALUES (16,6,'2009-12-01');
+INSERT INTO Employs VALUES (17,7,'2015-12-01');
+INSERT INTO Employs VALUES (18,1,'2018-05-30');
+INSERT INTO Employs VALUES (19,2,'2013-10-30');
+INSERT INTO Employs VALUES (20,3,'1999-02-21');
+INSERT INTO Employs VALUES (21,4,'2016-01-23');
+
+									
+INSERT INTO MusicIndustryPeople VALUES (11,'1978-01-11','Coby',1);
+INSERT INTO MusicIndustryPeople VALUES (12,'1977-02-12','RodyConnor',2);
+INSERT INTO MusicIndustryPeople VALUES (13,'1970-04-09','RogerSteven',3);
+INSERT INTO MusicIndustryPeople VALUES (14,'1987-04-16','AndyWilliams',4);
+INSERT INTO MusicIndustryPeople VALUES (15,'1976-04-11','ViktorTang',5);
+INSERT INTO MusicIndustryPeople VALUES (16,'1995-07-04','Post Malone',6);
+INSERT INTO MusicIndustryPeople VALUES (17,'1992-09-18','Joji',7);
+INSERT INTO MusicIndustryPeople VALUES (18,'1950-10-20','Tom Petty',1);
+INSERT INTO MusicIndustryPeople VALUES (19,'1970-07-08','Beck',2);
+INSERT INTO MusicIndustryPeople VALUES (20,'1977-06-08', 'Kanye West',3);
+INSERT INTO MusicIndustryPeople VALUES (21,'1998-01-23','XXXTentacion',4);
+
+INSERT INTO MusicIndustryPeople (PersonID, Birthdate, Name) VALUES (131,'1990-12-25','John Smith');
+
+
+
+						  
+INSERT INTO Producer VALUES (11, 'Dj','Waves Analyst');
+INSERT INTO Producer VALUES	(12, 'Rap','RapSciences');
+INSERT INTO Producer VALUES (13, 'Mumble Rap','RapScience');
+INSERT INTO Producer VALUES (14, 'Song Writter','Music Theory');
+INSERT INTO Producer VALUES (15, 'Beats Maker','WaveAnalyst');
+
+					     
+INSERT INTO Artists VALUES (16, 'Guitar', 'American Music Awards');
+INSERT INTO Artists VALUES (17, 'Vocals', 'Saddest Boy 2018');
+INSERT INTO Artists VALUES (18, 'Guitar', 'American Music Awards');
+INSERT INTO Artists VALUES (19, 'Vocals', 'American Music Awards');
+INSERT INTO Artists VALUES (20, 'Vocals', 'Grammy');
+INSERT INTO Artists VALUES (21,'Vocals','Saddest Boy 2017');
+
+
+						 
+INSERT INTO Project VALUES (11,'Love Hurts','Insturmental',45,'1992-03-12',45);
+INSERT INTO Project VALUES (11,'Stoney','Hip Hop',14,'2010-01-21',1000);
+INSERT INTO Project VALUES (11,'Beerbongs and Bentleys','Hip Hop',17,'2018-04-27',50000);
+INSERT INTO Project VALUES (12,'PainT','Rap',40,'1992-03-12',40);
+INSERT INTO Project VALUES (12,'In Tongues','Hip Hop',6,'2017-11-03',100);
+INSERT INTO Project VALUES (12,'Ballads 1','Hip Hop',12,'2018-10-26',7500);
+INSERT INTO Project VALUES (13,'HyphyMvmt','Rap',45,'1994-04-09',50);
+INSERT INTO Project VALUES (13,'17','Rap',11,'2017-08-25',1000);
+INSERT INTO Project VALUES (14,'JHustle','Rap',50,'1994-05-11',60);
+INSERT INTO Project VALUES (14,'Full Moon Fever','Rock',12,'1989-04-24',100000);
+INSERT INTO Project VALUES (14,'Mellow Gold','Experimental',12,'1994-03-01',10);
+INSERT INTO Project VALUES (15,'So Nice','Hip Hop',45,'1995-03-08',45);
+INSERT INTO Project VALUES (15,'My Beautiful Dark Twisted Fantasy','Rap',13,'2010-11-22',99999);
+INSERT INTO Project VALUES (15,'Ye','Rap',7,'2018-06-01',10000);
+
+
+
+					  
+INSERT INTO Album VALUES (11,'Love Hurts');
+INSERT INTO Album VALUES (12,'No Pain');
+INSERT INTO Album VALUES (13, 'Help Me');
+INSERT INTO Album VALUES (14, 'Im Done');
+INSERT INTO Album VALUES (15,'Like Hudson');
+INSERT INTO Album VALUES (16,'Stoney');
+INSERT INTO Album VALUES (16,'Beerbongs and Bentleys');
+INSERT INTO Album VALUES (17,'In Tongues');
+INSERT INTO Album VALUES (17,'Ballads 1');
+INSERT INTO Album VALUES (18,'Full Moon Fever');
+INSERT INTO Album VALUES (19,'Mellow Gold');
+INSERT INTO Album VALUES (20,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO Album VALUES (20,'Ye');
+INSERT INTO Album VALUES (21,'17');
+
+
+					   
+INSERT INTO Songs VALUES (11,'Rap',45,'Love','1991-02-11',45,'Love Hurts');
+INSERT INTO Songs VALUES (12,'Instrumental',50,'PainT','1991-01-11',45,'No Pain');
+INSERT INTO Songs VALUES (13,'Mumble Rap',40,'Helpp','1994-03-12',45,'Help Me');
+INSERT INTO Songs VALUES (14,'Rap',43,'Suicide','1996-04-05',45,'Im Done');
+INSERT INTO Songs VALUES (15,'Hip Hop',42,'Brawl','1997-04-06',45,'Like Hudson');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Broken Whiskey Glass','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',20,'Big Lie','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',700,'Deja Vu','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',10,'No Option','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',56,'Cold','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',123,'White Iverson','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',500,'I Fall Apart','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',6,'Patient','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',29,'Go Flex','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',35,'Feel','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',45,'Too Young','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',61,'Congratulations','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',250,'Up There','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',30,'Yours Truly,Austin Post','2010-01-21',1000,'Stoney');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Paranoid','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Spoil My Night','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Rich & Sad','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Zack and Codeine','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Takin Shots','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'rockstar','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Over Now','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Psycho','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Better Now','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Ball For Me','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Otherside','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Stay','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Blame It On Me','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Jones Town','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'92 Explorer','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Candy Paint','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (16,'Hip Hop',100,'Sugar Wraith','2018-04-27',500000,'Beerbongs and Bentleys');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Will He','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Pills','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Demons','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Window','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Bitter Fuck','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Worldstar Money','2017-11-03',1000,'In Tongues');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Attention','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Slow Dancing in the Dark','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Test Drive','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Wanted U','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Cant Get Over You','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Yeah Right','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Why Am I Still in LA','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'No Fun','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Come Thru','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'R.I.P.','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'XNXX','2018-10-26',7500,'Ballads 1');
+INSERT INTO Songs VALUES (17,'Hip Hop',10,'Ill See You In 40','2018-10-26',7500,'Ballads 1');
+INSERT INTO songs VALUES (18,'Rock',10,'Free Fallin','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'I Wont Back Down','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Love Is a Long Road','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'A Face In The Crowd','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Runnin Down a Dream','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Feel a Whole Lot Better','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Yer So Bad','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Depending On You','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'The Apartment Song','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Alright For Now','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'A Mind With a Heart Of Its Own','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (18,'Rock',10,'Zombie Zoo','1989-4-24',100000,'Full Moon Fever');
+INSERT INTO songs VALUES (19,'Experimental',10,'Loser','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Pay No Mind','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Fuckin With My Head','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Whiskeyclone, Hotel City 1997','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Soul Suckin Jerk','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Truckdrivin Neighbors Downstairs','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Sweet Sunshine','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Beercan','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Steal My Body Home','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Nitemare Hippy Girl','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Mutherfuker','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (19,'Experimental',10,'Blackhole','1994-03-01',10,'Mellow Gold');
+INSERT INTO songs VALUES (20,'Rap',10,'Dark Fantasy','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Georgeous','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'POWER','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'All Of The Lights','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Monster','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'So Appalled','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Devil In A New Dress','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Runaway','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Hell Of a Life','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Blame Game','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Lost in The World','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'Who Will Survive In America','2010-11-22',99999,'My Beautiful Dark Twisted Fantasy');
+INSERT INTO songs VALUES (20,'Rap',10,'I Thought About Killing You','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'Yikes','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'All Mine','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'Wouldnt Leave','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'No Mistakes','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'Ghost Town','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (20,'Rap',10,'Violent Crimes','2018-06-01',10000,'Ye');
+INSERT INTO songs VALUES (21,'Rap',10,'The Explanation','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Jocelyn Flores','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Depression & Obsession','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Everybody Dies In Their Nightmares','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Revenge','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Save Me','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Dead Inside','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Fuck Love','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Carry On','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Orlando','2017-08-25',1000,'17');
+INSERT INTO songs VALUES (21,'Rap',10,'Ayala','2017-08-25',1000,'17');
+
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Rap',130,'MyRapSong','2018-11-26',0);
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Mumble Rap',180,'MyMumbleRapSong','2018-11-26',0);
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Instrumental',60,'MyInstrumentalSong','2018-11-26',0);
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Hip Hop',200,'MyHip-HopSong','2018-11-26',0);
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Rock',90,'MyRockSong','2018-11-26',1000);
+INSERT INTO songs (PersonID, Genre, Duration, SongName, ReleaseDate, AmountSold) VALUES (131,'Experimental',60,'MyExperimentalSong','2018-11-26',0);
+						
+INSERT INTO Remixes VALUES (11,'Rap','Love');
+INSERT INTO Remixes VALUES (12,'Insturmental','PainT');
+INSERT INTO Remixes VALUES (13,'Mumble Rap','Helpp');
+INSERT INTO Remixes VALUES (14,'Rap','Suicide');
+INSERT INTO Remixes VALUES (15,'Hip Hop','Brawl');

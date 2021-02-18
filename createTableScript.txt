@@ -1,0 +1,71 @@
+CREATE TABLE Studio(
+      	Address CHAR(30),
+      	StudioID INTEGER PRIMARY KEY,
+      	Name CHAR(30)
+      	);
+ CREATE TABLE Employs(
+      	PersonID INTEGER PRIMARY KEY,
+      	StudioID INTEGER,
+      	Start_Of_Contract Date,
+      	FOREIGN KEY (StudioID) REFERENCES Studio(StudioID)
+      	);
+CREATE TABLE MusicIndustryPeople(
+      	PersonID INTEGER PRIMARY KEY,
+      	Birthdate DATE,
+      	Name CHAR(30),
+      	StudioID INTEGER,
+      	FOREIGN KEY (StudioID) REFERENCES Studio(StudioID)
+      	);
+CREATE TABLE Producer(
+      	PersonID INTEGER PRIMARY KEY,
+      	Skills CHAR(25),
+      	Education CHAR(25),
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID)
+      	);
+CREATE TABLE Artists(
+      	PersonID INTEGER PRIMARY KEY,
+      	Instruments CHAR(25),
+      	Awards CHAR(50),
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID)
+      	);
+ 
+CREATE TABLE Project(
+      	PersonID INTEGER ,
+      	ProjectName CHAR(50) PRIMARY KEY NOT NULL,
+      	Genre CHAR(20),
+      	Duration INTEGER,
+      	ReleaseDate DATE,
+      	AmountSold INTEGER,
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID)
+      	ON DELETE CASCADE
+      	);
+CREATE TABLE Album(
+      	PersonID INTEGER,
+      	AlbumName CHAR(50), 
+	PRIMARY KEY (AlbumName,PersonID),
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID)
+      	ON DELETE CASCADE
+      	); 
+CREATE TABLE Songs(
+      	PersonID INTEGER,
+      	Genre CHAR(20),
+      	Duration INTEGER,
+      	SongName CHAR(50),
+      	ReleaseDate DATE,
+      	AmountSold INTEGER,
+      	AlbumName CHAR(50),
+PRIMARY KEY (SongName,PersonID),
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID),
+      	FOREIGN KEY (AlbumName) REFERENCES Album(AlbumName)
+	ON DELETE CASCADE
+      	);
+CREATE TABLE Remixes(
+      	PersonID INTEGER,
+      	Genre CHAR(20),
+      	SongName CHAR(50),
+PRIMARY KEY(SongName,PersonID),
+      	FOREIGN KEY (PersonID) REFERENCES MusicIndustryPeople(PersonID),
+      	FOREIGN KEY (SongName) REFERENCES Songs(SongName)
+	ON DELETE CASCADE
+      	);
+

@@ -1,0 +1,13 @@
+1. Follow Part A of the "Setting up PHP and MySQL" on Piazza, created by Hazra Imran.
+
+2. Open up the XAMPP Control Panel to access the Admin Page for MySqQL.
+
+3. Create a new database named "Song Database".
+
+4. Open the "createTableScript.txt", copy&paste the contents into the SQL tab and run it.
+
+5. Open the "insertScript.txt", copy&paste the contents into the SQL tab and run it.
+
+6. Open the XAMPP folder, go into htdocs, and place the folder "HTML_and_PHP" inside it.
+
+7. Access the homepage on a browser with the address localhost/HTML_and_PHP/Homepage.html.
